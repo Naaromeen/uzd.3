@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main
+{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Lūdzu ievadiet litru daudzumu ");
+    int x = sc.nextInt();
+    int y = 100/x;
+    int z = y*3.8;
+    int a = z/1.6;
+    System.out.println("Mašīna patēriņš būs 1 galons uz " a "jūdzēm.");
+    sc.close();
+    }
+}
